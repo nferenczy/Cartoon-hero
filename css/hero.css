@@ -7,12 +7,15 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
 }
+
+/* header styles */
 header{
-    background-color: lightsteelblue;
+    background-color: #d2c597;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
@@ -28,13 +31,15 @@ header h1{
 header img{
     border-radius: 170px;
     width: 300px;
-    border: 10px solid #483a94;
+    border: 10px solid #629cb8;
 }
 
+
+/* main styles */
 main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 main img{
     max-width: 100%;
@@ -54,8 +59,19 @@ a:hover{
     background-color: mediumslateblue;
 }
 
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* footer styles */
 footer{
-    background-color: lightsteelblue;
+    background-color: #d2c597;
     text-align: center;
     padding: 50px;
 }
