@@ -34,12 +34,12 @@ header img{
     border: 10px solid #629cb8;
 }
 
-
 /* main styles */
 main{
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
+    text-align: center;
 }
 main img{
     max-width: 100%;
